@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfólio</title>
+    <!--IMPORTAÇÕES DO BOOTSTRAP-->
+    <link rel="shortcut icon" href="assets/team.png">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!--IMPORTAÇÃO DO CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body><!--####################################################-->
+    <nav class="navbar navbar-expand-lg navbar-light" id="barra" >
+        <a class="navbar-brand" href="#" style="color: white;">Gabriel Brune</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+              
+          </ul>
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link" href="#projetos" style="color: white;">Projetos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre-mim" style="color: white;" >Sobre mim</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#habilidades" style="color: white;">Habilidades</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#certificados" style="color: white;">Certificados</a>
+            </li>
+          </ul>
+          <div id="btn" class="btn-group" style="margin-left: 3%;">
+            <button id="btn-night" type="button" class="btn btn-sm btn-outline-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><img style="padding: 0.5rem;" src="assets/dormir.png" alt="Escuro"></font></font></button>
+            <button id="btn-light" type="button" class="btn btn-sm btn-outline-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><img style="padding: 0.5rem;" src="assets/dom.png" alt="Escuro"></font></font></button>
+          </div>
+          
+        </div>
+      </nav>  
+
+      <!--####################################################-->
+    
+      <!--####################################################-->
+
+
+      <section id="profile" style="background-color:rgb(204, 208, 212) ;" class="jumbotron text-center">
+        <div class="container">
+          <img class="perfil" src="https://media-exp1.licdn.com/dms/image/C4D03AQHYpdutFAT51g/profile-displayphoto-shrink_200_200/0?e=1603324800&v=beta&t=Q2K4GlcrbvbfDCLPPasJG4iVdyXn6Hr6j0WDb4LaxHE" alt="perfil">
+          <h1 class="jumbotron-heading"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gabriel Brune</font></font></h1>
+          <h1 id = "subtitulo" value='Software Developer - Web Developer' >{profession: 'Software Developer - Web Developer'}</h1>
+          <blockquote>
+              <p class="contato">Contatos</p>
+          </blockquote>
+              <ul class="icons" >
+                <a  href="https://www.linkedin.com/public-profile/in/gabriel-brune-dos-santos-032b9717a/?challengeId=AQFIulX3bqLdVgAAAXQETx8C_CQqHDDzih0Hz6vge6ChctE1u2tTw_dVX6-omtN-DAyJ64RH8jfrvas0SVeLKn35_bS4yCoBzw&submissionId=23f5293c-c086-2c16-ac62-7c24cf3feb4e">
+                  <li  style="list-style: none;"><img src="assets/linkedin.png" alt="Linkedin"></li>
+                </a>
+                <a href="https://github.com/Gabriel52?tab=repositories">
+                  <li><img src="assets/github.png" alt="Git-Hub"></li>
+                </a>
+                <a href="https://drive.google.com/file/d/1NQznVW3o2ou1Q0GEr8SzZ61tT2pGx01q/view?usp=sharing">
+                  <li><img src="assets/cv.png" alt=""></li>
+                </a>
+                <a href="https://mywhats.net/brune">
+                  <li><img src="assets/whatsapp.png" alt=""></li>
+                </a>
+              </ul>
+        </div>
+
+      </section>
+
+              
+      <!--PROJETOS-->
+      
+      <div class="lateral">
+        <span id="projetos" class="text-white" style="background:#dc3545;">Projetos</span>
+        <hr class="linha1">
+
+        <div class="album py-5 bg-light" style="margin-bottom: 2rem;">
+          <div class="container">
+  
+            <div class="row">
+                <div class="col-md-6">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Miniatura [100% x225]" style="height: 225px; width: 100%; display: block;" src="assets/proffy-master.png" data-holder-rendered="true">
+                  <div class="card-body">
+                    <p class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">O Proffy é uma plataforma que visa facilitar a conexão entre alunos e professores,
+                      dando a possibilidade dos professores cadastrarem suas aulas especificando a matéria,
+                      horários, dias. Os alunos podem pesquisar as aulas e entrar em contato com os professores
+                      facilmente.  </font><font style="vertical-align: inherit;"></font></font></p>
+                    
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <a href="https://github.com/Gabriel52/CRUD-em-Java">
+                            <button id="btn" type="button" class="btn btn-sm btn-outline-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ver Projeto</font></font></button>
+                          
+                          </a>
+                        </div>
+                      <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Node | React | React Native</font></font></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Miniatura [100% x225]" src="assets/mercadoJava.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                  <div class="card-body">
+                    <p id="descrevendo" class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Este sistema foi feito com o intuito de viabilizar e conciliar a vida de um micro empreendedor de um mercado, referente aos seus respectivos registros. Dando a possibilidade de cadastrar seus funcionarios, clientes, fornecedores e estoque. Assim dando uma maior segurança aos dados. </font><font style="vertical-align: inherit;"></font></font></p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      
+                      <div class="btn-group">
+                        <a href="https://github.com/Gabriel52/CRUD-em-Java">
+                          <button id="btn" type="button" class="btn btn-sm btn-outline-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ver Projeto</font></font></button>
+                        
+                        </a>
+                      </div>
+                      <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;" style="font-size:25px ;">Java</font></font></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Miniatura [100% x225]" src="assets/Be-the-Hero.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                  <div class="card-body">
+                    <p class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> O projeto Be The Hero é uma plataforma desenvolvida para unir ONGs que necessitam de apoio financeiro com pessoas que estejam dispostas a apoiar uma causa e salvar o dia. </font><font style="vertical-align: inherit;"></font></font></p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href="https://github.com/Gabriel52/CRUD-em-Java">
+                          <button id="btn" type="button" class="btn btn-sm btn-outline-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ver Projeto</font></font></button>
+                        
+                        </a>  
+                      </div>
+                      <small  class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Node | React | React Native </font></font></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      <!--SOBRE MIM-->
+      <section>
+        <div class="lateral"></div>
+          <span id="sobre-mim" class="text-white" style="background:#dc3545;">Sobre Mim</span>
+          <hr class="linha2">
+          
+          <div class="album py-5 bg-light" id="containers"> 
+            <p class="lead">Desde a minha juventude tive muita dúvida em que caminho seguir na carreira profissional, entretanto tudo mudou quando fiz meu primeiro curso voltado a área da tecnologia(JavaScript - Udemy 2018), logo após o término, obtive a certeza do que queria me tornar, um profissional dedicado a resolver problemáticas dos clientes/usuarios, da maneira mais eficaz e ágil, por isso em 2019 iniciei o curso Técnico em Análise e Desenvolvimento de Sistemas na ETEC de Embu, aprimorando diversas habilidades em levantamento de requisitos, métodos ágeis (SCRUM, Waterfall Model, Kanban), também adquiri conhecimento em Python, JavaScript, Java, Swift, PHP, C# e MySQL.  Com os conhecimentos adquiridos eu desenvolvi um software em Java para um pequeno mercado que tem em meu bairro, vendo a dificuldade que o dono tinha em guardar seus respectivos dados. Em desenvolvimento web eu fiz um curso da Rocketseat, uma aplicação da ponta do back-end até o front-end e mobile usando uma stack poderosa e enxuta com algumas da inovações do que temos no mercado de tecnologia. Colocando a mão na massa em Node.js, ReactJS e React Native.</p>
+            <p class="lead"></p>
+          </div>
+          
+        
+      </section>
+      <!--HABILIDADES-->
+      <span id="habilidades" class="text-white" style="background:#dc3545;">Habilidades</span>
+        <hr class="linha3">
+      
+        <div id="habilidades" class="col" style="margin-bottom: 2rem;">
+          <div class="card bg-white">
+            <h3 class="ml-3 my-3">Java</h3>
+            <div class="progress mx-3">
+              <div class="progress-bar bg-dark" style="width: 70%">70%</div>
+            </div>
+            
+            <h3 class="ml-3 my-3">JavaScript</h3>
+            <div class="progress mx-3">
+              <div class="progress-bar bg-dark" style="width: 65%">65%</div>
+            </div>
+            
+
+            <h3 class="ml-3 my-3">NodeJS</h3>
+            <div class="progress mx-3">
+              <div class="progress-bar bg-dark" style="width: 60%">60%</div>
+            </div>
+            <h3 class="ml-3 my-3">ReactJS</h3>
+            <div class="progress mx-3">
+              <div class="progress-bar bg-dark" style="width: 80%">80%</div>
+            </div>
+            <h3 class="ml-3 my-3">MongoDB</h3>
+            <div class="progress mx-3">
+              <div class="progress-bar bg-dark" style="width: 65%">65%</div>
+            </div>
+            <div class="mb-5">
+              <h3 class="ml-3 my-3">MySQl</h3>
+              <div class="progress mx-3 ">
+                <div class="progress-bar bg-dark" style="width: 80%">80%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+        <!--CERTIFICADO-->
+        <header id="certificados"> 
+          <div class="lateral" >
+            <span id="certificado" class="text-white" style="background:#dc3545;">Certificados</span>
+            <hr class="linha4">
+
+          </div>  
+        </header>
+
+        <!--CAROUSEL-->
+        <main>
+          <div id="carousel">
+            <div id="carouselControls5" class="carousel slide " data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item bg-white">
+                  <img class="d-block w-100 img-fluid m-auto py-3" src="assets/javascript(1).png" alt="First slide">
+                </div>
+                <div class="carousel-item bg-white">
+                  <img class="d-block w-100 img-fluid m-auto py-3" src="assets/jquery.png" alt="Second slide">
+                </div>
+                <div class="carousel-item bg-white active">
+                  <img class="d-block w-100 img-fluid m-auto py-3" src="assets/php.png" alt="Third slide">
+                </div>
+                <div class="carousel-item bg-white">
+                  <img class="d-block w-100 img-fluid m-auto py-3" src="assets/react-node.png" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselControls5" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselControls5" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>  
+        </main>
+
+        <!--RODAPÉ-->
+        <section class="rodape">
+          <h3>DISPONIVEL PARA OPORTUNIDADES</h3>
+          <h5>gabrielbrune52@gmail.com</h5>
+          <div class="copyright"> 
+            <h6>copyright 2020 </h6>
+          </div>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+        <script src="script.js"></script>
+</body>
+</html>
